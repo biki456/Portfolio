@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikita Hait | Python Full Stack Developer</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23a855f7'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='14' font-family='monospace' font-weight='bold' fill='%23fff'>B;</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="nav">
+      <h2 class="logo">Bikita <span class="logo-code">
+          < />
+        </span></h2>
+      <button class="hamburger" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Bikita Hait</span></h1>
+        <h3 id="typing-text"></h3>
+        <p>I build clean, responsive, and practical web applications using Python and Django.</p>
+        <div class="hero-buttons">
+          <a href="https://drive.google.com/file/d/1pcxww9o7zlXB4AoIduh-ie7rFOrmVGVd/view?usp=drivesdk" class="btn"
+            target="_blank">View Resume</a>
+          <a href="#contact" class="btn-outline">Hire Me</a>
+        </div>
+      </div>
+      <div class="photo-wrapper">
+        <img src="images/mypi.png" alt="Bikita Hait" class="profile-pic">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I enjoy building web applications that solve real problems. My main focus is backend
+      development using Python and Django, along with creating clean and responsive user interfaces.
+      I chose Python because of its simplicity and powerful libraries that make development faster
+      and more efficient. I am currently expanding my skills in REST APIs and deployment.
+      I believe in learning by building projects and improving step by step.</p>
+  </section>
+
+  <section id="skills" class="section light">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML &amp; CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Django</div>
+      <div class="skill-card">MySQL</div>
+      <div class="skill-card">Git &amp; GitHub</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section dark-section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="images/ecommerc.jpeg" alt="E-commerce">
+          <div class="project-overlay">
+            <a href="https://github.com/biki456/Qart-Ecommece" target="_blank" class="overlay-btn" title="GitHub"><i
+                class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>E-commerce Web Application</h3>
+          <p>Full-stack e-commerce platform using Python and Django with secure authentication,
+            product search, cart management, GST billing, and UPI payment via QR code.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="images/studentdb.jpeg" alt="Student Management">
+          <div class="project-overlay">
+            <a href="https://github.com/biki456/student-management-system-CRUD" target="_blank" class="overlay-btn"
+              title="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Student Management System</h3>
+          <p>CRUD-based system built with Python and MySQL. Supports add, search, update,
+            delete, course filter, and CSV export with input validation.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="images/portfolio.png" alt="Portfolio">
+          <div class="project-overlay">
+            <a href="https://biki456.github.io/Portfolio" target="_blank" class="overlay-btn" title="Visit Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="https://github.com/biki456/Portfolio" target="_blank" class="overlay-btn" title="GitHub"><i
+                class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio deployed on GitHub Pages, showcasing projects
+            and skills. Built with HTML, CSS, and JavaScript.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section dark">
+    <h2>Contact</h2>
+    <p>Feel free to reach out — I'd love to connect!</p>
+    <div class="contact-icons">
+      <a href="mailto:haitbikita@gmail.com" class="icon-btn email" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://github.com/biki456" target="_blank" class="icon-btn github" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bikita-hait-2b59b91b3" target="_blank" class="icon-btn linkedin"
+        title="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">&copy; 2026 Bikita Hait</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
