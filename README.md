@@ -59,7 +59,7 @@ Add screenshots of your portfolio here.
 
 Example:
 
-![Home Page](images/home.png)  
+![Home Page](images/portfolio.png)  
 ![Projects Section](images/projects.png)  
 ![Contact Section](images/contact.png)
 
