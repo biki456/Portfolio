@@ -61,7 +61,7 @@ Example:
 
 ![Home Page](images/portfolio.png)  
 ![Projects Section](images/projects.png)  
-![Contact Section](images/contact.png)
+![Contact Section](images/portcont.png)
 
 ---
 
